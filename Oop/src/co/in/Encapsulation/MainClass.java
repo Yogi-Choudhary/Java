@@ -5,18 +5,14 @@ import java.io.ObjectInputStream.GetField;
 public class MainClass {
 	public static void main(String[] args) {
 
-		Person p = null;
-		Account a = null;
-		Automobile m = null;
-
-		p = new Person();
-		a = new Account();
-		m = new Automobile();
+		Person p = new Person();
+		Account a = new Account();
+		Automobile m = new Automobile();
 
 		// Person Block
 		p.setName("yogi");
 		p.setAddress("MG Road");
-		p.setDateOfBirth(15/8/97);
+		p.setDateOfBirth(15 / 8 / 97);
 
 		System.out.println("Name : " + p.getName());
 		System.out.println("Address : " + p.getAddress());
